@@ -7,7 +7,7 @@ import Reset from'./component/Reset'
 class App extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {color:'red',fontSize:'15'}
+        this.state = {color:'red',fontSize:15}
         this.handleChange = this.handleChange.bind(this) 
         this.onChangeSize=this.onChangeSize.bind(this);
         this.handleReset= this.handleReset.bind(this)
@@ -42,7 +42,7 @@ class App extends React.Component {
    }
    handleReset(){
       
-         this.setState({color:'red',fontSize:'15'})
+         this.setState({color:'red',fontSize:15})
          
    }
     render() {
